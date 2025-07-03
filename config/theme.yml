@@ -1,0 +1,22 @@
+parent: classic
+name: tardigarde
+display_name: Tardigarde
+version: 1.0.0
+author:
+  name: "Julien Petit"
+  email: "julien@ledevquilvousfaut.be"
+  url: "https://www.ledevquilvousfaut.be"
+
+meta:
+  compatibility:
+    from: 9.0.0
+    to: ~
+    framework: 'bootstrap-v4.0.0-alpha.5'
+
+assets:
+  use_parent_assets: true # <-- Corrected indentation here
+  css:
+    all:
+      - id: custom-styles
+        path: assets/css/custom.css
+        priority: 200

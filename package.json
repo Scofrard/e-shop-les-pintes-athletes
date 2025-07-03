@@ -1,0 +1,16 @@
+{
+  "name": "tardigarde",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "sass assets/css/custom.scss assets/css/custom.css --style compressed",
+    "sass:watch": "sass assets/css/custom.scss assets/css/custom.css --style compressed --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.89.2"
+  }
+}
