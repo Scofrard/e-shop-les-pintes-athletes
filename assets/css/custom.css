@@ -132,6 +132,24 @@ html {
   font-family: "outfit", sans-serif;
 }
 
+.primary-button a {
+  background-color: #FDD81D;
+  border: none;
+  border-radius: 20px;
+  color: #000 !important;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 600 !important;
+  padding: 0.7rem 1.5rem;
+  text-align: center;
+  text-decoration: none;
+}
+.primary-button a:hover {
+  background-color: #000;
+  color: #fff !important;
+}
+
 #header {
   background-color: #ff1f62;
 }

@@ -1,3 +1,23 @@
 html {
     font-family: 'outfit', sans-serif;
 }
+
+.primary-button a {
+    background-color: #FDD81D;
+    border: none;
+    border-radius: 20px;
+    color: #000 !important;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 600 !important;
+    padding: .7rem 1.5rem;
+    text-align: center;
+    text-decoration: none;
+
+
+    &:hover {
+        background-color: #000;
+        color: #fff !important;
+    }
+}
